@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1e0d6bc8ae15351e705eea926fa992b3\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\d05cd91fa0e0d00f971cc74baae16029\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:11:9-40
+activity#a.darkr.fitlog1.Timetable
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:12:19-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:16:27-74
+activity#a.darkr.fitlog1.Exercises
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:19:19-44
+activity#a.darkr.fitlog1.Routines
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:20:19-43
+activity#a.darkr.fitlog1.CreateExercise
+ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:21:9-61
+	android:name
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml:21:19-49
+uses-sdk
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1e0d6bc8ae15351e705eea926fa992b3\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\1e0d6bc8ae15351e705eea926fa992b3\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\d05cd91fa0e0d00f971cc74baae16029\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Rodrigo\.gradle\caches\transforms-2\files-2.1\d05cd91fa0e0d00f971cc74baae16029\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\FitLog1\app\src\main\AndroidManifest.xml
