@@ -15,6 +15,8 @@ public class CreateExercise extends AppCompatActivity {
     DatabaseHelper mDataBaseHelper;
     private Button btnFinish;
     private EditText name, reps, series;
+    private Integer idEdit;
+    private TextView title;
 
 
     @Override
@@ -22,11 +24,28 @@ public class CreateExercise extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_exercise);
 
+        title = findViewById(R.id.title_create);
         name= (EditText) findViewById(R.id.textName);
         reps= (EditText) findViewById(R.id.textReps);
         series= (EditText) findViewById(R.id.textSeries);
         mDataBaseHelper=new DatabaseHelper(this);
 
+        Intent receivedIntent =getIntent();
+        idEdit = receivedIntent.getIntExtra("id",-1);
+        if(idEdit == -1){
+        title.setText("Creating an exercise");
+        name.setText("");
+        reps.setText("");
+        series.setText("");
+        }else {
+            String nameEdit=receivedIntent.getStringExtra("name");
+            Integer repsEdit = receivedIntent.getIntExtra("reps",0);
+            Integer seriesEdit = receivedIntent.getIntExtra("series",0);
+            title.setText("Updating an exercise");
+            name.setText(nameEdit);
+            reps.setText(repsEdit.toString());
+            series.setText(seriesEdit.toString());
+        }
 
 
 
@@ -34,16 +53,32 @@ public class CreateExercise extends AppCompatActivity {
         btnFinish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String nm=name.getText().toString();
-                Integer rps=Integer.parseInt(reps.getText().toString());
-                Integer srs=Integer.parseInt(series.getText().toString());
-                if(nm.length()==0){
-                    toastMessage("You have to put a name");
+
+                //First id is checked to see if there's an exercise to be updated
+                //if not is a new exercise
+                if(idEdit == -1) {
+                    String nm = name.getText().toString();
+                    Integer rps = Integer.parseInt(reps.getText().toString());
+                    Integer srs = Integer.parseInt(series.getText().toString());
+                    if (nm.length() == 0) {
+                        toastMessage("You have to put a name");
+                    } else {
+                        addData(nm, rps, srs);
+                    }
+                    Intent success = new Intent(CreateExercise.this, Exercises.class);
+                    startActivity(success);
                 }else{
-                    addData(nm,rps,srs);
+                    String nm = name.getText().toString();
+                    Integer rps = Integer.parseInt(reps.getText().toString());
+                    Integer srs = Integer.parseInt(series.getText().toString());
+                    if (nm.length() == 0) {
+                        toastMessage("You have to put a name");
+                    } else {
+                        updateData(idEdit, nm, rps, srs);
+
+                        //TO DO: updateData: https://www.youtube.com/watch?v=nY2bYJyGty8
+                    }
                 }
-                Intent success=new Intent(CreateExercise.this, Exercises.class);
-                startActivity(success);
             }
         });
     }
@@ -58,5 +93,11 @@ public class CreateExercise extends AppCompatActivity {
     }
     public void toastMessage(String msg){
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+    }
+
+    public void updateData(Integer id, String name, Integer reps, Integer series){
+
+        //TO DO: updateData: https://www.youtube.com/watch?v=nY2bYJyGty8
+
     }
 }

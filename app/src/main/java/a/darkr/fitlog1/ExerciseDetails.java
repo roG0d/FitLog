@@ -3,6 +3,8 @@ package a.darkr.fitlog1;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ExerciseDetails extends AppCompatActivity {
@@ -16,6 +18,8 @@ public class ExerciseDetails extends AppCompatActivity {
     private Integer id;
     private Integer reps;
     private Integer series;
+    private Button edit;
+    private Button delete;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +28,8 @@ public class ExerciseDetails extends AppCompatActivity {
         exName = findViewById(R.id.exercise_name);
         exReps = findViewById(R.id.exercise_reps2);
         exSeries = findViewById(R.id.exercise_series2);
+        edit = findViewById(R.id.button_edit);
+        delete = findViewById(R.id.button_delete);
 
         mDataBaseHelper = new DatabaseHelper(this);
 
@@ -36,6 +42,24 @@ public class ExerciseDetails extends AppCompatActivity {
         exName.setText(name);
         exReps.setText(reps.toString());
         exSeries.setText(series.toString());
+
+        edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentBtn=new Intent(ExerciseDetails.this, CreateExercise.class);
+                intentBtn.putExtra("id", id);
+                intentBtn.putExtra("name", name);
+                intentBtn.putExtra("reps", reps);
+                intentBtn.putExtra("series", series);
+                startActivity(intentBtn);
+            }
+        });
+
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            }
+        });
 
     }
 }

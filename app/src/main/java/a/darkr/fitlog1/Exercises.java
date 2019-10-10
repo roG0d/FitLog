@@ -62,18 +62,18 @@ public class Exercises extends AppCompatActivity{
                    Log.d(TAG, "OnItemClick: The id is: "+ itemID);
                    Intent editScreenIntent = new Intent(Exercises.this,ExerciseDetails.class);
 
-                   //Cursor with all the info of the table given a ID
+                   //Cursor with all the info of the table, given a ID
                    Cursor data1 = mDataBaseHelper.getDataFromID(itemID);
                    String name1=""; Integer reps=0; Integer series=0;
 
-                   //This is necessary for the cursor to asign each value of the column to each variable
+                   //This is necessary for the cursor to assign each value of the column to each variable
                    while(data1.moveToNext()){
                         name1 = data1.getString(0);
                         reps = Integer.parseInt(data1.getString(1));
                         series = Integer.parseInt(data1.getString(2));
                    }
 
-                   //Extras to foward the information to another Activity
+                   //Extras to forward the information to another Activity
                    editScreenIntent.putExtra("id", itemID);
                    editScreenIntent.putExtra("name", name1);
                    editScreenIntent.putExtra("reps", reps);
@@ -97,6 +97,8 @@ public class Exercises extends AppCompatActivity{
                         break;
 
                     case R.id.navigation_exercises:
+                        Intent intentExercise=new Intent(Exercises.this,Exercises.class);
+                        startActivity(intentExercise);
                         break;
 
                     case R.id.navigation_routines:

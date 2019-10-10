@@ -991,6 +991,7 @@ id time
 id title
 id titleDividerNoCustom
 id titleExercises
+id title_create
 id title_template
 id top
 id topPanel

@@ -35,6 +35,8 @@ public class Routines extends AppCompatActivity{
                         break;
 
                     case R.id.navigation_routines:
+                        Intent intentRoutines=new Intent(Routines.this,Routines.class);
+                        startActivity(intentRoutines);
                         break;
                 }
                 return false;

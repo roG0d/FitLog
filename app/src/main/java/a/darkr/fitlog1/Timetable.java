@@ -43,6 +43,8 @@ public class Timetable extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.navigation_calendar:
+                        Intent intentCalendar=new Intent(Timetable.this,Timetable.class);
+                        startActivity(intentCalendar);
                         break;
 
                     case R.id.navigation_exercises:
