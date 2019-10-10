@@ -1,5 +1,6 @@
 package a.darkr.fitlog1;
 
+import android.support.annotation.Nullable;
 import android.widget.Toast;
 import android.content.Intent;
 import android.os.Bundle;

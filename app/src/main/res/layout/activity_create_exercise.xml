@@ -8,10 +8,11 @@
 
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="184dp"
         android:text="Exercise name:"
         android:textSize="20sp"
@@ -22,19 +23,19 @@
         android:id="@+id/textName"
         android:layout_width="225dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="148dp"
-        android:layout_marginStart="148dp"
         android:layout_marginTop="176dp"
         android:ems="100"
         android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="264dp"
         android:text="Standar reps:"
         android:textSize="20sp"
@@ -45,37 +46,38 @@
         android:id="@+id/textReps"
         android:layout_width="53dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="132dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="252dp"
         android:ems="100"
         android:inputType="number"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="344dp"
         android:text="Standar series:"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/textSeries"
         android:layout_width="53dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="148dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="340dp"
         android:ems="100"
         android:inputType="number"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <View
         android:id="@+id/divider"
@@ -109,18 +111,18 @@
     <View
         android:layout_width="301dp"
         android:layout_height="2dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/ColorSecondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.169" />
 
     <TextView
         android:layout_width="match_parent"

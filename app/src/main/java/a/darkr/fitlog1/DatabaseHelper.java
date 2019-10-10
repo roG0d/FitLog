@@ -24,7 +24,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String createTable = "CREATE TABLE " + TABLE_NAME + " (ID INTEGER PRIMARY KEY AUTOINCREMENT, " + COL1 +" TEXT, " + COL2 +" INTEGER, "+ COL3 + " INTEGER, "+ COL4 +" DOUBLE)";
+        String createTable = "CREATE TABLE " + TABLE_NAME + " (ID INTEGER PRIMARY KEY AUTOINCREMENT, " + COL1 +" TEXT, " + COL2 +" INTEGER, "+ COL3 + " INTEGER, "+ COL4 +" REAL)";
         db.execSQL(createTable);
     }
 
@@ -45,6 +45,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Log.d(TAG, "addData: adding "+ name + " to " + TABLE_NAME);
 
         long result=db.insert(TABLE_NAME, null, contentValues);
+
         if(result==-1){
             return false;
         }
@@ -53,11 +54,33 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Cursor getData(){
-        SQLiteDatabase db=this.getWritableDatabase();
+    public Cursor getAllData(){
+        SQLiteDatabase db=this.getReadableDatabase();
         String query="SELECT * FROM "+ TABLE_NAME;
+        Cursor data=db.rawQuery(query,null);
+            return data;
+
+    }
+
+    public Cursor getDataFromID(Integer id){
+        SQLiteDatabase db=this.getReadableDatabase();
+        String query="SELECT name, reps, series FROM "+ TABLE_NAME + " WHERE ID = "+id;
         Cursor data=db.rawQuery(query,null);
         return data;
 
+    }
+
+    public Cursor getItemID(String name){
+        SQLiteDatabase db=this.getWritableDatabase();
+        String query= "SELECT ID FROM "+TABLE_NAME + " WHERE " + COL1 +" = '"+ name + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public Cursor getItemReps(Integer id){
+        SQLiteDatabase db=this.getWritableDatabase();
+        String query= "SELECT COL2 FROM "+TABLE_NAME + " WHERE ID = '" + id + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
     }
 }

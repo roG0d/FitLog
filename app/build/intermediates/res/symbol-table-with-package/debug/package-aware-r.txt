@@ -833,7 +833,9 @@ id beginning
 id blocking
 id bottom
 id btnFinish
+id button_delete
 id buttonPanel
+id button_edit
 id calendar
 id cancel_action
 id center
@@ -861,11 +863,18 @@ id dimensions
 id direct
 id disableHome
 id divider
+id divider1
+id divider2
 id edit_query
 id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id exercise_name
+id exercise_reps
+id exercise_reps2
+id exercise_series
+id exercise_series2
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -972,6 +981,9 @@ id textRoutines
 id textSeries
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
+id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1034,6 +1046,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_exercise
+layout activity_exercise_details
 layout activity_exercises
 layout activity_routines
 layout activity_timetable
@@ -1108,6 +1121,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
+string exercise_name
 string list_exercises
 string navigation_calendar
 string navigation_exercises

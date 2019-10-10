@@ -3,31 +3,31 @@
 3    package="a.darkr.fitlog1.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:5:5-74
+5-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:5:5-74
 6        android:minSdkVersion="15"
-6-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:5:15-41
+6-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:5:15-41
 7        android:targetSdkVersion="27" />
-7-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:5:42-71
+7-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:11:5-15:65
+9-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:11:5-15:65
 10        android:name="android.support.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:11:22-83
+10-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:11:22-83
 11        android:functionalTest="false"
-11-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:14:22-52
+11-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:13:22-53
+12-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:13:22-53
 13        android:label="Tests for a.darkr.fitlog1"
-13-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:15:22-63
+13-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:15:22-63
 14        android:targetPackage="a.darkr.fitlog1" />
-14-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:12:22-61
+14-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:12:22-61
 15
 16    <application android:debuggable="true" >
-16-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:7:5-9:19
-16-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:7:18-43
+16-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:7:5-9:19
+16-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:8:9-60
-17-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7238502963378024152.xml:8:23-57
+17-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:8:9-60
+17-->C:\Users\Rodrigo\Desktop\FitLog1\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6308955029448124198.xml:8:23-57
 18    </application>
 19
 20</manifest>

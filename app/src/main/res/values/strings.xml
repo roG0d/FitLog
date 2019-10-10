@@ -6,4 +6,5 @@
     <string name="navigation_routines">Routines</string>
     <string name="list_exercises">List of exercises</string>
     <string name="add_exercises">Add an exercise</string>
+    <string name="exercise_name">Exercise name</string>
 </resources>
