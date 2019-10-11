@@ -17,13 +17,12 @@ import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Exercises extends AppCompatActivity{
     private static final String TAG="Exercise";
 
-    DatabaseHelper mDataBaseHelper;
+    DatabaseExercises mDataBaseExercises;
     private ListView mListView;
 
     @Override
@@ -31,7 +30,7 @@ public class Exercises extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercises);
         mListView= findViewById(R.id.listEx);
-        mDataBaseHelper = new DatabaseHelper(this);
+        mDataBaseExercises = new DatabaseExercises(this);
 
 
         BottomNavigationView bottomNav= findViewById(R.id.BottomBar);
@@ -40,7 +39,7 @@ public class Exercises extends AppCompatActivity{
         menuItem.setChecked(true);
 
         //Cursor with all the data from the table in order to put it onto the ListView
-        Cursor data=mDataBaseHelper.getAllData();
+        Cursor data= mDataBaseExercises.getAllData();
         ArrayList<String> listData=new ArrayList<>();
         while(data.moveToNext()){
             listData.add(data.getString(1));
@@ -53,7 +52,7 @@ public class Exercises extends AppCompatActivity{
 
                 //Retrieving the id using the name
                String name = parent.getItemAtPosition(position).toString();
-               Cursor data = mDataBaseHelper.getItemID(name);
+               Cursor data = mDataBaseExercises.getItemID(name);
                Integer itemID = -1;
                while(data.moveToNext()){
                    itemID=data.getInt(0 );
@@ -63,7 +62,7 @@ public class Exercises extends AppCompatActivity{
                    Intent editScreenIntent = new Intent(Exercises.this,ExerciseDetails.class);
 
                    //Cursor with all the info of the table, given a ID
-                   Cursor data1 = mDataBaseHelper.getDataFromID(itemID);
+                   Cursor data1 = mDataBaseExercises.getDataFromID(itemID);
                    String name1=""; Integer reps=0; Integer series=0;
 
                    //This is necessary for the cursor to assign each value of the column to each variable
@@ -128,7 +127,7 @@ public class Exercises extends AppCompatActivity{
 
     //See the whole list of exercises
  /*   private void exerciseList(){
-        Cursor data=mDataBaseHelper.getAllData();
+        Cursor data=mDataBaseExercises.getAllData();
         ArrayList<String> listData=new ArrayList<>();
         while(data.moveToNext()){
             listData.add(data.getString(1));

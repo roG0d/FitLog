@@ -823,6 +823,7 @@ id activity_chooser_view_content
 id actualDay
 id add
 id add_exercise
+id add_routine
 id alertTitle
 id all
 id always
@@ -902,6 +903,7 @@ id line3
 id listEx
 id listMode
 id list_item
+id list_routine
 id masked
 id media_actions
 id message
@@ -977,7 +979,6 @@ id text
 id text2
 id textName
 id textReps
-id textRoutines
 id textSeries
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -991,6 +992,7 @@ id time
 id title
 id titleDividerNoCustom
 id titleExercises
+id titleRoutines
 id title_create
 id title_template
 id top

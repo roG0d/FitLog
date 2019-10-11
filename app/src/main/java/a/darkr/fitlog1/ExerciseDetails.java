@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ExerciseDetails extends AppCompatActivity {
 
-    DatabaseHelper mDataBaseHelper;
+    DatabaseExercises mDataBaseExercises;
 
     private TextView  exName;
     private TextView  exReps;
@@ -31,7 +32,7 @@ public class ExerciseDetails extends AppCompatActivity {
         edit = findViewById(R.id.button_edit);
         delete = findViewById(R.id.button_delete);
 
-        mDataBaseHelper = new DatabaseHelper(this);
+        mDataBaseExercises = new DatabaseExercises(this);
 
         Intent receivedIntent =getIntent();
         id=receivedIntent.getIntExtra("id", -1);
@@ -58,8 +59,22 @@ public class ExerciseDetails extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+               boolean result = mDataBaseExercises.deleteData(id);
+                if(result){
+                    toastMsg("Exercise successfully deleted");
+                    Intent intentBtn=new Intent(ExerciseDetails.this, Exercises.class);
+                    startActivity(intentBtn);
+                }else{
+                    toastMsg("Ups, something went bad");
+
+                }
+
             }
         });
+
+    }
+    public void toastMsg(String msg){
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
 
     }
 }

@@ -7,9 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class DatabaseHelper extends SQLiteOpenHelper {
+public class DatabaseExercises extends SQLiteOpenHelper {
 
-    private static final String TAG="DatabaseHelper";
+    private static final String TAG="DatabaseExercises";
     private static final  String TABLE_NAME="exercise_table";
     private static final String COL0="ID";
     private static final String COL1="name";
@@ -18,7 +18,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COL4="kg";
 
 
-    public DatabaseHelper(Context context) {
+    public DatabaseExercises(Context context) {
         super(context, TABLE_NAME, null, 1);
     }
 
@@ -46,6 +46,32 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         long result=db.insert(TABLE_NAME, null, contentValues);
 
+        if(result==-1){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+    public boolean updateData(Integer id, String name, Integer reps, Integer series){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL1, name);
+        contentValues.put(COL2, reps);
+        contentValues.put(COL3, series);
+        long result = db.update(TABLE_NAME, contentValues,"ID = '"+id+"'",null);
+        if(result==-1){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+    public boolean deleteData(Integer id){
+        SQLiteDatabase db = this.getWritableDatabase();
+        long result = db.delete(TABLE_NAME,"ID = '"+id+"'", null);
         if(result==-1){
             return false;
         }

@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class CreateExercise extends AppCompatActivity {
 
-    DatabaseHelper mDataBaseHelper;
+    DatabaseExercises mDataBaseExercises;
     private Button btnFinish;
     private EditText name, reps, series;
     private Integer idEdit;
@@ -28,7 +28,7 @@ public class CreateExercise extends AppCompatActivity {
         name= (EditText) findViewById(R.id.textName);
         reps= (EditText) findViewById(R.id.textReps);
         series= (EditText) findViewById(R.id.textSeries);
-        mDataBaseHelper=new DatabaseHelper(this);
+        mDataBaseExercises =new DatabaseExercises(this);
 
         Intent receivedIntent =getIntent();
         idEdit = receivedIntent.getIntExtra("id",-1);
@@ -75,6 +75,8 @@ public class CreateExercise extends AppCompatActivity {
                         toastMessage("You have to put a name");
                     } else {
                         updateData(idEdit, nm, rps, srs);
+                        Intent success = new Intent(CreateExercise.this, Exercises.class);
+                        startActivity(success);
 
                         //TO DO: updateData: https://www.youtube.com/watch?v=nY2bYJyGty8
                     }
@@ -83,19 +85,30 @@ public class CreateExercise extends AppCompatActivity {
         });
     }
     public void addData(String name, Integer reps, Integer series){
-        boolean insertData=mDataBaseHelper.addData(name, reps, series, 0.0);
+        boolean insertData= mDataBaseExercises.addData(name, reps, series, 0.0);
         if(insertData){
-       Toast.makeText(this, "Exercise succesfully added!", Toast.LENGTH_SHORT ).show();
+       Toast.makeText(this, "Exercise successfully added!", Toast.LENGTH_SHORT ).show();
         }
         else{
             Toast.makeText(this, "Ups! Fail adding the exercise", Toast.LENGTH_SHORT ).show();
         }
     }
+
+    //FOR DOING TOAST MESSAGES
     public void toastMessage(String msg){
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
     public void updateData(Integer id, String name, Integer reps, Integer series){
+        boolean updateData= mDataBaseExercises.updateData(id, name, reps, series);
+        if(updateData){
+            Toast.makeText(this, "Exercise successfully updated!", Toast.LENGTH_SHORT ).show();
+        }
+        else{
+            Toast.makeText(this, "Ups! Fail updating the exercise", Toast.LENGTH_SHORT ).show();
+        }
+
+
 
         //TO DO: updateData: https://www.youtube.com/watch?v=nY2bYJyGty8
 

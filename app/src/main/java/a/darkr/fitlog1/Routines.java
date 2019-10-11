@@ -8,8 +8,13 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.Button;
 
 public class Routines extends AppCompatActivity{
+
+    private ListView mListView;
+    private Button addRoutine;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,5 +47,9 @@ public class Routines extends AppCompatActivity{
                 return false;
             }
         });
+
+
+        mListView = findViewById(R.id.list_routine);
+        addRoutine = findViewById(R.id.add_routine);
     }
 }

@@ -53,13 +53,12 @@
 
     <ListView
         android:id="@+id/listEx"
-        android:layout_width="411dp"
-        android:layout_height="324dp"
-        android:layout_marginTop="220dp"
-        app:layout_constraintBottom_toTopOf="@+id/BottomBar"
+        android:layout_width="408dp"
+        android:layout_height="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintTop_toBottomOf="@+id/add_exercise"
+        app:layout_constraintVertical_bias="0.384" />
 
     <Button
         android:id="@+id/add_exercise"

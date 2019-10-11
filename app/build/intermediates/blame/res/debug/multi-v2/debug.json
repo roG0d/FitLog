@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20_values-watch-v20.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
             "map": [
                 {
@@ -28,22 +44,6 @@
                         "startOffsets": "1970",
                         "endColumns": "100",
                         "endOffsets": "2066"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20_values-watch-v20.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-watch-v20\\values-watch-v20.xml",
-                    "from": {
-                        "startLines": "2,5,8",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,214,385",
-                        "endLines": "4,7,10",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "209,380,553"
                     }
                 }
             ]
@@ -176,38 +176,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1949",
-                        "endColumns": "100",
-                        "endOffsets": "2045"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,314,423,507,616,741,818,894,975,1081,1189,1287,1391,1496,1603,1766,1866",
-                        "endColumns": "108,99,108,83,108,124,76,75,80,105,107,97,103,104,106,162,99,82",
-                        "endOffsets": "209,309,418,502,611,736,813,889,970,1076,1184,1282,1386,1491,1598,1761,1861,1944"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-ar_values-ar.arsc.flat",
             "map": [
                 {
@@ -235,6 +203,38 @@
                         "startOffsets": "1918",
                         "endColumns": "100",
                         "endOffsets": "2014"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1949",
+                        "endColumns": "100",
+                        "endOffsets": "2045"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,314,423,507,616,741,818,894,975,1081,1189,1287,1391,1496,1603,1766,1866",
+                        "endColumns": "108,99,108,83,108,124,76,75,80,105,107,97,103,104,106,162,99,82",
+                        "endOffsets": "209,309,418,502,611,736,813,889,970,1076,1184,1282,1386,1491,1598,1761,1861,1944"
                     }
                 }
             ]
@@ -1016,38 +1016,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,1754",
-                        "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
-                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1832",
-                        "endColumns": "100",
-                        "endOffsets": "1928"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
             "map": [
                 {
@@ -1075,6 +1043,38 @@
                         "startOffsets": "1962",
                         "endColumns": "100",
                         "endOffsets": "2058"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,1754",
+                        "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
+                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1832",
+                        "endColumns": "100",
+                        "endOffsets": "1928"
                     }
                 }
             ]
@@ -1336,38 +1336,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-gl_values-gl.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,217,329,437,522,624,750,834,915,997,1104,1213,1312,1420,1524,1631,1790,1890",
-                        "endColumns": "111,111,107,84,101,125,83,80,81,106,108,98,107,103,106,158,99,81",
-                        "endOffsets": "212,324,432,517,619,745,829,910,992,1099,1208,1307,1415,1519,1626,1785,1885,1967"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1972",
-                        "endColumns": "100",
-                        "endOffsets": "2068"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
@@ -1395,6 +1363,38 @@
                         "startOffsets": "1907",
                         "endColumns": "100",
                         "endOffsets": "2003"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\build\\intermediates\\res\\merged\\debug\\values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,329,437,522,624,750,834,915,997,1104,1213,1312,1420,1524,1631,1790,1890",
+                        "endColumns": "111,111,107,84,101,125,83,80,81,106,108,98,107,103,106,158,99,81",
+                        "endOffsets": "212,324,432,517,619,745,829,910,992,1099,1208,1307,1415,1519,1626,1785,1885,1967"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1972",
+                        "endColumns": "100",
+                        "endOffsets": "2068"
                     }
                 }
             ]
@@ -1755,11 +1755,11 @@
                 {
                     "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,8,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,4,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,420,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,-1,55,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,-1,471,-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,5",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,4",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,241",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,56",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,293"
                     },
                     "to": {
                         "startLines": "435,436,437,441,442,443,444,445",

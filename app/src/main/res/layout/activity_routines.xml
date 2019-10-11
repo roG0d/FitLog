@@ -7,15 +7,22 @@
     tools:context=".Routines">
 
     <TextView
-        android:id="@+id/textRoutines"
+        android:id="@+id/titleRoutines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="276dp"
-        android:text="@string/navigation_routines"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:text="Workouts"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/BottomBar"
@@ -26,5 +33,44 @@
         app:menu="@menu/navigation">
 
     </android.support.design.widget.BottomNavigationView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="301dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/ColorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <ListView
+        android:id="@+id/list_routine"
+        android:layout_width="408dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/add_routine"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:text="Add a workout"
+        app:layout_constraintBottom_toBottomOf="@+id/BottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
 
 </android.support.constraint.ConstraintLayout>
