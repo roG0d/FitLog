@@ -834,6 +834,8 @@ id beginning
 id blocking
 id bottom
 id btnFinish
+id btn_add_exercises
+id btn_finish_routine
 id button_delete
 id buttonPanel
 id button_edit
@@ -902,6 +904,7 @@ id line1
 id line3
 id listEx
 id listMode
+id list_exercises
 id list_item
 id list_routine
 id masked
@@ -933,6 +936,7 @@ id radio
 id right
 id right_icon
 id right_side
+id routine_name
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -983,6 +987,7 @@ id textSeries
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView1
 id textView2
 id textView3
 id text_input_password_toggle
@@ -994,6 +999,8 @@ id titleDividerNoCustom
 id titleExercises
 id titleRoutines
 id title_create
+id title_createWorkout
+id title_exercises
 id title_template
 id top
 id topPanel
@@ -1049,8 +1056,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_exercise
+layout activity_create_routine
 layout activity_exercise_details
 layout activity_exercises
+layout activity_list_exercises
 layout activity_routines
 layout activity_timetable
 layout design_bottom_navigation_item

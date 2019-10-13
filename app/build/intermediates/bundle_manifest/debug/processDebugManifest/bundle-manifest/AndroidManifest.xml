@@ -17,6 +17,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="a.darkr.fitlog1.ListExercises" />
+        <activity android:name="a.darkr.fitlog1.CreateRoutine" />
         <activity android:name="a.darkr.fitlog1.ExerciseDetails" />
         <activity android:name="a.darkr.fitlog1.Timetable" >
             <intent-filter>
