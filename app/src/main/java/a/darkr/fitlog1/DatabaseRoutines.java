@@ -85,4 +85,47 @@ public class DatabaseRoutines extends SQLiteOpenHelper {
         return data;
 
     }
+
+    public Cursor getItemID(String name){
+        SQLiteDatabase db=this.getWritableDatabase();
+        String query= "SELECT ID FROM "+TABLE_NAME + " WHERE " + COL1 +" = '"+ name + "'";
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public Cursor getDataFromID(Integer id) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT name, exercises FROM " + TABLE_NAME + " WHERE ID = " + id;
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public boolean addEx(Integer idR, Integer idE){             //Exercises format: 1,2,3,4,5,6,etc... where int is the idEx
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        Cursor routineData = getDataFromID(idR);
+        String exsRoutine="";
+        while(routineData.moveToNext()){
+            exsRoutine = routineData.getString(1);
+        }
+        if(exsRoutine.equals("")){
+            exsRoutine.concat(idE.toString());
+        }else{
+            exsRoutine.concat(","+idE);
+        }
+        contentValues.put(COL2, exsRoutine);
+
+        Log.d(TAG, "addEx: adding the exercise"+ exsRoutine);
+
+        long result = db.update(TABLE_NAME, contentValues,"ID = '"+idR+"'",null);
+
+        if(result==-1){
+            return false;
+        }
+        else{
+            return true;
+        }
+
+
+    }
 }

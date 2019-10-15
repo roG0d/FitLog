@@ -23,6 +23,7 @@ public class Routines extends AppCompatActivity{
     private Button addRoutine;
     DatabaseRoutines mDatabaseRoutines;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +55,6 @@ public class Routines extends AppCompatActivity{
                 return false;
             }
         });
-
 
         mListView = findViewById(R.id.list_routine);
         addRoutine = findViewById(R.id.add_routine);

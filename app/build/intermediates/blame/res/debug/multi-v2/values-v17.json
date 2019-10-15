@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\darkr\\Desktop\\FitLog1\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\darkr\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\darkr\\Desktop\\FitLog1\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\darkr\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\darkr\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\14f32e59bfb41237fda3f005ba4b7226\\support-compat-27.1.1\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
