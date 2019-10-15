@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Rodrigo\\Desktop\\FitLog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Rodrigo\\.gradle\\caches\\transforms-2\\files-2.1\\0cdf82a0b5673c06e4c99214b3f0921f\\appcompat-v7-27.1.1\\res\\values\\values.xml",
@@ -99,7 +99,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2,7,1,8,6,3,4,5",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -116,7 +116,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -132,23 +132,6 @@
                         "endLines": "467",
                         "endColumns": "12",
                         "endOffsets": "28919"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog1\\FitLog\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "5,4,2,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "204,157,57,105",
-                        "endColumns": "48,45,46,50",
-                        "endOffsets": "248,198,99,151"
-                    },
-                    "to": {
-                        "startLines": "135,154,155,156",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6384,7841,7887,7934",
-                        "endColumns": "48,45,46,50",
-                        "endOffsets": "6428,7882,7929,7980"
                     }
                 },
                 {
@@ -183,6 +166,23 @@
                         "startOffsets": "22261,22471,22610,22657,22712,23049,23103,23155,23204,23265",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "22296,22509,22652,22707,22752,23098,23150,23199,23260,23310"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rodrigo\\Desktop\\FitLog\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,4,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "204,157,57,105",
+                        "endColumns": "48,45,46,50",
+                        "endOffsets": "248,198,99,151"
+                    },
+                    "to": {
+                        "startLines": "135,154,155,156",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6384,7841,7887,7934",
+                        "endColumns": "48,45,46,50",
+                        "endOffsets": "6428,7882,7929,7980"
                     }
                 },
                 {

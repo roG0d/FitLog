@@ -907,6 +907,7 @@ id listMode
 id list_exercises
 id list_item
 id list_routine
+id list_routine_exs
 id masked
 id media_actions
 id message
@@ -1013,6 +1014,7 @@ id transition_transform
 id uniform
 id up
 id useLogo
+id view
 id view_offset_helper
 id visible
 id withText

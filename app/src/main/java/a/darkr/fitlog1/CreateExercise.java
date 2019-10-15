@@ -64,9 +64,9 @@ public class CreateExercise extends AppCompatActivity {
                         toastMessage("You have to put a name");
                     } else {
                         addData(nm, rps, srs);
+                        Intent success = new Intent(CreateExercise.this, Exercises.class);
+                        startActivity(success);
                     }
-                    Intent success = new Intent(CreateExercise.this, Exercises.class);
-                    startActivity(success);
                 }else{
                     String nm = name.getText().toString();
                     Integer rps = Integer.parseInt(reps.getText().toString());
