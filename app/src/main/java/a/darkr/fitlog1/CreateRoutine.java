@@ -26,7 +26,8 @@ public class CreateRoutine extends AppCompatActivity {
     private Button addExercises;
     private Button finish;
     private Integer idEx;
-    private ArrayList<String> listData;
+    private ArrayList<String> listDataNames;
+    private ArrayList<String> listDataIds;
     private ListView listExs;
 
 
@@ -41,7 +42,8 @@ public class CreateRoutine extends AppCompatActivity {
         listExs = findViewById(R.id.list_routine_exs);
         mDatabaseRoutines = new DatabaseRoutines(this);
         mDatabaseExercises = new DatabaseExercises(this);
-        listData = new ArrayList<>();
+        listDataNames = new ArrayList<>();
+        listDataIds = new ArrayList<>();
 
         addExercises.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,21 +59,26 @@ public class CreateRoutine extends AppCompatActivity {
         finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                String exs = "";
                 if(name.length()==0){
                     toastMessage("You have to put a name");
                 }else{
                     String nm = name.getText().toString();
 
-                    for(String ex:listData){
-                        ex.concat()
+
+                    for(String ex:listDataIds){
+                        exs = exs.concat(ex+",");
                     }
-                    mDatabaseRoutines.addData(nm,idEx);
+                    mDatabaseRoutines.addRoutine(nm,exs);
+                    Intent addSuccess = new Intent(CreateRoutine.this, Routines.class);
+                    startActivity(addSuccess);
                 }
 
 
 
             }
-        });*/
+        });
     }
 
 
@@ -86,6 +93,7 @@ public class CreateRoutine extends AppCompatActivity {
 
             idEx = data.getExtras().getInt("id",-1);
             Log.d(TAG, "id of the exercises: "+ idEx);
+            listDataIds.add(idEx.toString());
 
             //Conseguido: pasar el id del ejercicio de la vista ListtExercises
             //TO DO coger el ejercicio con id X y añadirlo a la rutina y demas
@@ -96,9 +104,9 @@ public class CreateRoutine extends AppCompatActivity {
 
         Cursor data1= mDatabaseExercises.getDataFromID(idEx);
         while(data1.moveToNext()){
-            listData.add(data1.getString(0));
+            listDataNames.add(data1.getString(0));
         }
-        ListAdapter adapter=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,listData);
+        ListAdapter adapter=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,listDataNames);
         listExs.setAdapter(adapter);
         }
 

@@ -103,24 +103,15 @@ public class DatabaseRoutines extends SQLiteOpenHelper {
     }
 
 
-    public booelan addExs(Integer idR, String idExs){
+    public boolean addRoutine(String name, String idExs){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        Cursor routineData = getDataFromID(idR);
-        String exsRoutine="";
-        while(routineData.moveToNext()){
-            exsRoutine = routineData.getString(1);
-        }
-        if(exsRoutine.equals("")){
-            exsRoutine.concat(idE.toString());
-        }else{
-            exsRoutine.concat(","+idE);
-        }
-        contentValues.put(COL2, exsRoutine);
+        contentValues.put(COL1,name);
+        contentValues.put(COL2, idExs);
 
-        Log.d(TAG, "addEx: adding the exercise"+ exsRoutine);
+        Log.d(TAG, "addEx: adding the routine "+ name +" with exs: "+idExs);
 
-        long result = db.update(TABLE_NAME, contentValues,"ID = '"+idR+"'",null);
+        long result = db.insert(TABLE_NAME, null,contentValues);
 
         if(result==-1){
             return false;
@@ -128,11 +119,8 @@ public class DatabaseRoutines extends SQLiteOpenHelper {
         else{
             return true;
         }
-
-
     }
-    }
-    public boolean addEx(Integer idR, Integer idE){             //Exercises format: 1,2,3,4,5,6,etc... where int is the idEx
+    public boolean updateEx(Integer idR, Integer idE){             //Exercises format: 1,2,3,4,5,6,etc... where int is the idEx
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         Cursor routineData = getDataFromID(idR);

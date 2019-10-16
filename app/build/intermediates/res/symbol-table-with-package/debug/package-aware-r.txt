@@ -835,6 +835,8 @@ id blocking
 id bottom
 id btnFinish
 id btn_add_exercises
+id btn_delete_routine
+id btn_edit_routine
 id btn_finish_routine
 id button_delete
 id buttonPanel
@@ -908,6 +910,7 @@ id list_exercises
 id list_item
 id list_routine
 id list_routine_exs
+id list_routine_exs_details
 id masked
 id media_actions
 id message
@@ -938,6 +941,7 @@ id right
 id right_icon
 id right_side
 id routine_name
+id routine_name_details
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1062,6 +1066,7 @@ layout activity_create_routine
 layout activity_exercise_details
 layout activity_exercises
 layout activity_list_exercises
+layout activity_routine_details
 layout activity_routines
 layout activity_timetable
 layout design_bottom_navigation_item

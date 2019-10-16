@@ -34,7 +34,7 @@ public class ExerciseDetails extends AppCompatActivity {
 
         mDataBaseExercises = new DatabaseExercises(this);
 
-        Intent receivedIntent =getIntent();
+        Intent receivedIntent = getIntent();
         id=receivedIntent.getIntExtra("id", -1);
         name= receivedIntent.getStringExtra("name");
         reps=receivedIntent.getIntExtra("reps", 0);

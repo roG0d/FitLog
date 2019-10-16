@@ -7,9 +7,11 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -22,6 +24,7 @@ public class Routines extends AppCompatActivity{
     private ListView mListView;
     private Button addRoutine;
     DatabaseRoutines mDatabaseRoutines;
+    private static final String TAG="Routines";
 
 
     @Override
@@ -75,6 +78,25 @@ public class Routines extends AppCompatActivity{
             public void onClick(View v) {
                 Intent intentBtn=new Intent(Routines.this, CreateRoutine.class);
                 startActivity(intentBtn);
+            }
+        });
+
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String name = parent.getItemAtPosition(position).toString();
+                Cursor dataRoutine = mDatabaseRoutines.getItemID(name);
+
+                Integer itemID = -1;
+                while (dataRoutine.moveToNext()) {
+                    itemID = dataRoutine.getInt(0);
+                }
+                if (itemID > -1) {
+                    Log.d(TAG, "OnItemClick: The id is: " + itemID);
+                    Intent detailIntent = new Intent(Routines.this, RoutineDetails.class);
+                    detailIntent.putExtra("id",itemID);
+                    startActivity(detailIntent);
+                }
             }
         });
     }
